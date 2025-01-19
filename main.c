@@ -12,5 +12,6 @@ int32_t main(void) {
   printf("data_word=%s\n"
          "code_word=%s\n",
          data_word, code_word);
+  ham_free(&h);
   return 0;
 }
